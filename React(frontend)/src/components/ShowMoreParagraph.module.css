@@ -1,0 +1,57 @@
+/* ShowMoreParagraph.module.css */
+
+.show-more-paragraph {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+  max-height: 60px; /* Adjust this value based on your content */
+}
+
+.show-more-paragraph.expanded {
+  max-height: 100%;
+}
+
+.paragraph-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* ShowMoreParagraph.module.css */
+
+/* ... existing styles ... */
+
+.show-more-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  color: white;
+}
+
+.show-more-button.plus {
+  background-color: green;
+}
+
+.show-more-button.minus {
+  background-color: red;
+}
+
+.show-more-button.expanded {
+  font-size: 25px;
+}
+
+

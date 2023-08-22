@@ -1,0 +1,33 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    
+  }
+  .secondContainer {
+  margin-top: 15px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  }
+  .firstContainer {
+    flex: 2; 
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+  }
+  
+  .cards__item {
+    display: flex;
+    padding: 1rem;
+    width: 100%; 
+    @media(min-width: 40rem) {
+      width: 33;
+    }
+    @media(min-width: 56rem) {
+      width: 50%;
+    }
+  }

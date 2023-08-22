@@ -1,0 +1,13 @@
+.button{
+    padding: 5px 10px;
+    background-color: rgb(240, 66, 35);
+    cursor: pointer;
+    border-radius: 10px;
+    width:40% ;
+    border-color: transparent;
+    color: white;
+    margin-top: 5px;
+}
+.button:hover{
+    background-color: tomato;
+}

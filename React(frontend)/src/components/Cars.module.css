@@ -1,0 +1,85 @@
+.carousel-container {
+    
+    width: 750px;
+  }
+/* YourComponent.module.css */
+.container {
+  
+  position: relative;
+
+  
+  height: 80vh;
+  display:flex;
+  justify-content: center; /* Center both vertically and horizontally */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.navbar {
+  position: absolute;
+  
+  top: 0;
+  left: 50;
+  width: 25%;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 2; /* Place the navbar above the carousel */
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navItem {
+  margin: 0 15px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navItem:hover {
+  color: #ff9900;
+}
+
+.carouselContainer {
+  position: relative;
+  z-index: 1; /* Place the carousel below the navbar */
+}
+
+.carousel-root {
+  width: 100%;
+}
+
+.carousel {
+  max-width: 100%;
+}
+
+.carousel .slide img {
+  width: 100%;
+  height: auto;
+}
+
+.slideContent {
+  color: white;
+  padding: 20px;
+  text-align:left;
+  position: absolute;
+  bottom: 2%;
+  
+  width: 100%;
+  opacity: 0.9;
+  transition: opacity 0.3s;
+}
+
+.slideContent h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.slideContent p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}

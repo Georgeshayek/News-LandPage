@@ -1,0 +1,22 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  .secondContainer {
+    margin-top: 30px;
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    
+    
+}
+  .firstContainer {
+    flex: 1; 
+  }
+  .centered-image {
+    width: 100%; 
+    width: 500px; 
+    height: 40vh; 
+  }
+  
