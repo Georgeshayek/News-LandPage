@@ -38,7 +38,9 @@ const Cars=(props)=>{
         showArrows={false}
         autoPlay={true}
         infiniteLoop={true}
-        showThumbs={false}  
+        showThumbs={false}
+        showStatus={false}
+        showIndicators={true}  
         selectedItem={props.imageData[currentIndex]}
         onChange={handleChange}
         className={classes["carousel-container"]}

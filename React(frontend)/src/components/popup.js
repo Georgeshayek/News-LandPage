@@ -41,9 +41,9 @@ const Popup=(props)=>{
             {errorMessage && <p style={{color:"red",textAlign:"center"}}>{errorMessage}</p>}  
         <div className={classes.content}>
           <label><FaEnvelope className={classes.icon} /> Email:</label>
-          <input ref={inputRef} type="email" />
+          <input ref={inputRef} type="email" placeholder="Email" />
           <label><FaLock className={classes.icon} /> Password:</label>
-          <input ref={inputRef1} type="password" />
+          <input ref={inputRef1} type="password" placeholder="Password"/>
         </div>
         <div className={classes.buttonContainer}>
         <button className={classes.signInButton} onClick={handleLogin}>SignIn</button>

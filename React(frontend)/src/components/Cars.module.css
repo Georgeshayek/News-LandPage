@@ -1,29 +1,25 @@
 .carousel-container {
     
-    width: 750px;
+    width: 100%;
   }
-/* YourComponent.module.css */
 .container {
   
   position: relative;
-
-  
   height: 80vh;
   display:flex;
-  justify-content: center; /* Center both vertically and horizontally */
-  overflow: hidden; /* Prevent content overflow */
+  justify-content: center; 
+  overflow: hidden; 
 }
 
 .navbar {
   position: absolute;
-  
   top: 0;
   left: 50;
   width: 25%;
   color: white;
   padding: 10px;
   text-align: center;
-  z-index: 2; /* Place the navbar above the carousel */
+  z-index: 2; 
 }
 
 .navList {
@@ -46,7 +42,7 @@
 
 .carouselContainer {
   position: relative;
-  z-index: 1; /* Place the carousel below the navbar */
+  z-index: 1; 
 }
 
 .carousel-root {
@@ -67,8 +63,7 @@
   padding: 20px;
   text-align:left;
   position: absolute;
-  bottom: 2%;
-  
+  bottom: 33%;
   width: 100%;
   opacity: 0.9;
   transition: opacity 0.3s;
@@ -82,4 +77,8 @@
 .slideContent p {
   font-size: 1rem;
   margin-bottom: 15px;
+}
+.carousel-container ul {
+  position: relative;
+  top: 64%;
 }
